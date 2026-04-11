@@ -1,0 +1,20 @@
+[2026-04-10T22:00:16Z] === ENRICH ITERATION 6 START | repo=pandas-dev/pandas sha=ab90747e ===
+[2026-04-10T22:00:16Z] [iter=6] PHASE START: enrich repo=pandas-dev/pandas sha=ab90747e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ab90747e-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz
+[2026-04-10T22:00:37Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-10T22:06:11Z] [iter=6] AST store loaded triples=27282898 load_secs=323 mem_mb=1086 MB
+[2026-04-10T22:06:11Z] [iter=6] Step 2: Finding LSP targets mem_mb=1086 MB
+[2026-04-10T22:07:37Z] [iter=6] LSP targets found call_sites=222081 imports=8578 extends=809 implements=0 secs=86
+[2026-04-10T22:07:41Z] [iter=6] Loaded checkpoint partial graph triples=98111
+[2026-04-10T22:08:57Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1086 MB
+[2026-04-10T22:12:02Z] [iter=6] Position index built positions=1826358 nodes_with_types=2400439 secs=185 mem_mb=4108 MB
+[2026-04-10T22:12:02Z] [iter=6] Step 3: Starting LSP resolution mem_mb=4108 MB already_completed_types=[] already_completed_files=18
+[2026-04-10T22:12:02Z] [iter=6] Resolving target type target_type=call_site count=222081
+[2026-04-10T22:12:04Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=11.8 files_done=0 resolved=0 errors=0 current=pandas/tests/arithmetic/test_numeric.py
+[2026-04-10T23:16:29Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=76.2 files_done=1 resolved=121 errors=355 current=pandas/tests/reshape/concat/test_concat.py
+[2026-04-11T00:13:39Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=133.4 files_done=2 resolved=333 errors=671 current=pandas/tests/arrays/categorical/test_constructors.py
+[2026-04-11T00:59:58Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=179.7 files_done=3 resolved=498 errors=926 current=pandas/tests/scalar/interval/test_arithmetic.py
+[2026-04-11T01:07:46Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=187.5 files_done=4 resolved=509 errors=970 current=pandas/tests/frame/indexing/test_where.py
+[2026-04-11T02:01:13Z] [iter=6] CHECKPOINT TRIGGERED elapsed_min=241.0 files_completed=22 new_files_this_iter=4 mem_mb=4133 MB
+[2026-04-11T02:01:13Z] [iter=6] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz triples=106164
+[2026-04-11T02:01:15Z] [iter=6] Checkpoint written, exiting with code 7
+[2026-04-11T02:01:15Z] [iter=6] PHASE END: enrich (checkpointed) elapsed_s=14457 elapsed_min=241.0 files_completed=22

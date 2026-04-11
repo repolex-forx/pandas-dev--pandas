@@ -5,6 +5,8 @@
     "pandas/core/groupby/groupby.py",
     "pandas/core/internals/managers.py",
     "pandas/io/parsers/readers.py",
+    "pandas/tests/arithmetic/test_numeric.py",
+    "pandas/tests/arrays/categorical/test_constructors.py",
     "pandas/tests/copy_view/test_constructors.py",
     "pandas/tests/extension/base/casting.py",
     "pandas/tests/extension/json/test_json.py",
@@ -14,6 +16,8 @@
     "pandas/tests/frame/test_stack_unstack.py",
     "pandas/tests/frame/test_ufunc.py",
     "pandas/tests/libs/test_hashtable.py",
+    "pandas/tests/reshape/concat/test_concat.py",
+    "pandas/tests/scalar/interval/test_arithmetic.py",
     "pandas/tests/strings/test_case_justify.py",
     "pandas/tests/test_take.py",
     "pandas/tests/tools/test_to_datetime.py",
@@ -26,13 +30,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 4164,
+    "call_targets_resolved": 4799,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 6210,
+    "errors": 7477,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -40,5 +44,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14418
+  "elapsed_seconds": 14457
 }
