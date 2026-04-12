@@ -16,6 +16,7 @@
     "pandas/tests/arrays/categorical/test_constructors.py",
     "pandas/tests/arrays/test_datetimes.py",
     "pandas/tests/copy_view/test_constructors.py",
+    "pandas/tests/copy_view/test_methods.py",
     "pandas/tests/dtypes/test_dtypes.py",
     "pandas/tests/extension/base/casting.py",
     "pandas/tests/extension/json/test_json.py",
@@ -53,13 +54,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 9862,
+    "call_targets_resolved": 10228,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 16081,
+    "errors": 17301,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -67,5 +68,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14448
+  "elapsed_seconds": 14404
 }
