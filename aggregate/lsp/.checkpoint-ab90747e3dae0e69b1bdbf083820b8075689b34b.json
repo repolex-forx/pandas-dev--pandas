@@ -78,7 +78,9 @@
     "pandas/tests/plotting/frame/test_hist_box_by.py",
     "pandas/tests/plotting/test_misc.py",
     "pandas/tests/reshape/concat/test_concat.py",
+    "pandas/tests/reshape/test_pivot.py",
     "pandas/tests/scalar/interval/test_arithmetic.py",
+    "pandas/tests/scalar/period/test_period.py",
     "pandas/tests/scalar/timedelta/test_arithmetic.py",
     "pandas/tests/series/indexing/test_where.py",
     "pandas/tests/series/methods/test_fillna.py",
@@ -108,13 +110,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 17500,
+    "call_targets_resolved": 17838,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 29258,
+    "errors": 30454,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -122,5 +124,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14401
+  "elapsed_seconds": 14452
 }
