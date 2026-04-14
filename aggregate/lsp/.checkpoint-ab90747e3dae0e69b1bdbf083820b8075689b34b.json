@@ -48,6 +48,7 @@
     "pandas/tests/frame/test_arithmetic.py",
     "pandas/tests/frame/test_block_internals.py",
     "pandas/tests/frame/test_constructors.py",
+    "pandas/tests/frame/test_npfuncs.py",
     "pandas/tests/frame/test_stack_unstack.py",
     "pandas/tests/frame/test_ufunc.py",
     "pandas/tests/generic/test_finalize.py",
@@ -71,6 +72,8 @@
     "pandas/tests/io/generate_legacy_storage_files.py",
     "pandas/tests/io/parser/common/test_ints.py",
     "pandas/tests/io/parser/common/test_read_errors.py",
+    "pandas/tests/io/pytables/test_round_trip.py",
+    "pandas/tests/io/pytables/test_select.py",
     "pandas/tests/io/test_pickle.py",
     "pandas/tests/io/test_sql.py",
     "pandas/tests/libs/test_hashtable.py",
@@ -89,6 +92,8 @@
     "pandas/tests/series/test_arithmetic.py",
     "pandas/tests/strings/test_case_justify.py",
     "pandas/tests/strings/test_find_replace.py",
+    "pandas/tests/strings/test_strings.py",
+    "pandas/tests/test_algos.py",
     "pandas/tests/test_col.py",
     "pandas/tests/test_nanops.py",
     "pandas/tests/test_take.py",
@@ -100,6 +105,7 @@
     "pandas/tests/window/test_api.py",
     "pandas/tests/window/test_ewm.py",
     "pandas/tests/window/test_expanding.py",
+    "pandas/tests/window/test_numba.py",
     "pandas/tests/window/test_rolling_functions.py",
     "scripts/tests/test_validate_exception_location.py",
     "scripts/validate_exception_location.py"
@@ -110,13 +116,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 17838,
+    "call_targets_resolved": 18932,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 30454,
+    "errors": 31975,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -124,5 +130,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14452
+  "elapsed_seconds": 14433
 }
