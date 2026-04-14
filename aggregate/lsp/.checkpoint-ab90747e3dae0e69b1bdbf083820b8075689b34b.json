@@ -9,6 +9,7 @@
     "pandas/core/arrays/sparse/array.py",
     "pandas/core/dtypes/dtypes.py",
     "pandas/core/frame.py",
+    "pandas/core/generic.py",
     "pandas/core/groupby/groupby.py",
     "pandas/core/indexes/multi.py",
     "pandas/core/internals/blocks.py",
@@ -20,6 +21,7 @@
     "pandas/io/parsers/readers.py",
     "pandas/io/pytables.py",
     "pandas/plotting/_matplotlib/core.py",
+    "pandas/tests/apply/test_frame_transform.py",
     "pandas/tests/arithmetic/test_datetime64.py",
     "pandas/tests/arithmetic/test_numeric.py",
     "pandas/tests/arithmetic/test_period.py",
@@ -83,6 +85,7 @@
     "pandas/tests/io/generate_legacy_storage_files.py",
     "pandas/tests/io/parser/common/test_ints.py",
     "pandas/tests/io/parser/common/test_read_errors.py",
+    "pandas/tests/io/parser/test_encoding.py",
     "pandas/tests/io/parser/test_parse_dates.py",
     "pandas/tests/io/pytables/test_round_trip.py",
     "pandas/tests/io/pytables/test_select.py",
@@ -133,13 +136,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 20948,
+    "call_targets_resolved": 21445,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 34709,
+    "errors": 35972,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -147,5 +150,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14427
+  "elapsed_seconds": 14488
 }
