@@ -6,6 +6,7 @@
     "asv_bench/benchmarks/io/csv.py",
     "asv_bench/benchmarks/sparse.py",
     "pandas/core/apply.py",
+    "pandas/core/arrays/arrow/array.py",
     "pandas/core/arrays/datetimes.py",
     "pandas/core/arrays/sparse/array.py",
     "pandas/core/dtypes/dtypes.py",
@@ -62,6 +63,7 @@
     "pandas/tests/frame/methods/test_reset_index.py",
     "pandas/tests/frame/methods/test_select_dtypes.py",
     "pandas/tests/frame/methods/test_shift.py",
+    "pandas/tests/frame/methods/test_sort_values.py",
     "pandas/tests/frame/methods/test_to_timestamp.py",
     "pandas/tests/frame/test_api.py",
     "pandas/tests/frame/test_arithmetic.py",
@@ -151,13 +153,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 23005,
+    "call_targets_resolved": 23705,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 39720,
+    "errors": 40974,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -165,5 +167,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14401
+  "elapsed_seconds": 14413
 }
