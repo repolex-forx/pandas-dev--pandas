@@ -41,6 +41,7 @@
     "pandas/tests/extension/base/dim2.py",
     "pandas/tests/extension/json/test_json.py",
     "pandas/tests/extension/test_datetime.py",
+    "pandas/tests/extension/test_sparse.py",
     "pandas/tests/frame/indexing/test_indexing.py",
     "pandas/tests/frame/indexing/test_mask.py",
     "pandas/tests/frame/indexing/test_where.py",
@@ -92,6 +93,7 @@
     "pandas/tests/io/pytables/test_store.py",
     "pandas/tests/io/test_pickle.py",
     "pandas/tests/io/test_sql.py",
+    "pandas/tests/io/test_stata.py",
     "pandas/tests/libs/test_hashtable.py",
     "pandas/tests/plotting/frame/test_frame_subplots.py",
     "pandas/tests/plotting/frame/test_hist_box_by.py",
@@ -136,13 +138,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 21445,
+    "call_targets_resolved": 21968,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 35972,
+    "errors": 37213,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -150,5 +152,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14488
+  "elapsed_seconds": 14400
 }
