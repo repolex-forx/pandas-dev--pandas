@@ -106,6 +106,7 @@
     "pandas/tests/io/test_sql.py",
     "pandas/tests/io/test_stata.py",
     "pandas/tests/libs/test_hashtable.py",
+    "pandas/tests/plotting/frame/test_frame.py",
     "pandas/tests/plotting/frame/test_frame_subplots.py",
     "pandas/tests/plotting/frame/test_hist_box_by.py",
     "pandas/tests/plotting/test_misc.py",
@@ -153,13 +154,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 23705,
+    "call_targets_resolved": 24069,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 40974,
+    "errors": 42117,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -167,5 +168,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14413
+  "elapsed_seconds": 14431
 }
