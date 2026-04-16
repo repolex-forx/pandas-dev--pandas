@@ -19,6 +19,7 @@
     "pandas/core/groupby/groupby.py",
     "pandas/core/indexes/interval.py",
     "pandas/core/indexes/multi.py",
+    "pandas/core/indexing.py",
     "pandas/core/internals/blocks.py",
     "pandas/core/internals/managers.py",
     "pandas/core/reshape/merge.py",
@@ -130,6 +131,7 @@
     "pandas/tests/plotting/test_misc.py",
     "pandas/tests/reductions/test_stat_reductions.py",
     "pandas/tests/resample/test_base.py",
+    "pandas/tests/resample/test_datetime_index.py",
     "pandas/tests/resample/test_resample_api.py",
     "pandas/tests/reshape/concat/test_concat.py",
     "pandas/tests/reshape/test_pivot.py",
@@ -178,13 +180,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab90747e3dae0e69b1bdbf083820b8075689b34b.nq.gz",
     "call_sites": 222081,
     "import_statements": 8578,
-    "call_targets_resolved": 27165,
+    "call_targets_resolved": 27692,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 47354,
+    "errors": 48853,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17891,
@@ -192,5 +194,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14417
+  "elapsed_seconds": 14408
 }
