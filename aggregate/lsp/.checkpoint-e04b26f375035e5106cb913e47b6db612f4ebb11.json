@@ -1,8 +1,11 @@
 {
   "commit_sha": "e04b26f375035e5106cb913e47b6db612f4ebb11",
   "completed_files": [
+    "pandas/core/window/rolling.py",
     "pandas/io/stata.py",
-    "pandas/tests/arithmetic/test_timedelta64.py"
+    "pandas/tests/arithmetic/test_timedelta64.py",
+    "pandas/tests/arrays/categorical/test_api.py",
+    "pandas/tests/indexing/test_loc.py"
   ],
   "completed_types": [],
   "stats": {
@@ -10,13 +13,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/e04b26f375035e5106cb913e47b6db612f4ebb11.nq.gz",
     "call_sites": 221837,
     "import_statements": 8571,
-    "call_targets_resolved": 1126,
+    "call_targets_resolved": 1932,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 1146,
+    "errors": 2394,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -24,5 +27,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14432
+  "elapsed_seconds": 14442
 }
