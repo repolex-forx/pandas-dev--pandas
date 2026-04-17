@@ -1,12 +1,17 @@
 {
   "commit_sha": "e04b26f375035e5106cb913e47b6db612f4ebb11",
   "completed_files": [
+    "asv_bench/benchmarks/tslibs/timedelta.py",
+    "pandas/core/dtypes/common.py",
+    "pandas/core/indexes/multi.py",
     "pandas/core/window/rolling.py",
     "pandas/io/stata.py",
     "pandas/tests/arithmetic/test_timedelta64.py",
     "pandas/tests/arrays/categorical/test_api.py",
     "pandas/tests/groupby/test_categorical.py",
-    "pandas/tests/indexing/test_loc.py"
+    "pandas/tests/indexing/test_loc.py",
+    "pandas/tests/io/json/test_pandas.py",
+    "pandas/tests/window/test_apply.py"
   ],
   "completed_types": [],
   "stats": {
@@ -14,13 +19,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/e04b26f375035e5106cb913e47b6db612f4ebb11.nq.gz",
     "call_sites": 221837,
     "import_statements": 8571,
-    "call_targets_resolved": 2443,
+    "call_targets_resolved": 3152,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 3511,
+    "errors": 4758,
     "extends_clauses": 809,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -28,5 +33,5 @@
     "extends_class_denormalized": 806,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14467
+  "elapsed_seconds": 14429
 }
