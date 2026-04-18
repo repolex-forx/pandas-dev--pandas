@@ -1,11 +1,13 @@
 {
   "commit_sha": "366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670",
   "completed_files": [
+    "doc/source/conf.py",
     "pandas/core/indexes/base.py",
     "pandas/io/clipboard/__init__.py",
     "pandas/plotting/_matplotlib/boxplot.py",
     "pandas/tests/arithmetic/test_timedelta64.py",
     "pandas/tests/base/test_unique.py",
+    "pandas/tests/config/test_config.py",
     "pandas/tests/extension/test_arrow.py",
     "pandas/tests/extension/test_sparse.py",
     "pandas/tests/frame/methods/test_sort_values.py",
@@ -15,6 +17,7 @@
     "pandas/tests/indexes/period/methods/test_shift.py",
     "pandas/tests/indexes/test_old_base.py",
     "pandas/tests/indexing/test_categorical.py",
+    "pandas/tests/reductions/test_reductions.py",
     "pandas/tests/scalar/interval/test_arithmetic.py",
     "pandas/tests/strings/test_extract.py",
     "pandas/tests/strings/test_find_replace.py",
@@ -26,13 +29,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz",
     "call_sites": 221488,
     "import_statements": 8539,
-    "call_targets_resolved": 3533,
+    "call_targets_resolved": 4180,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 5151,
+    "errors": 6390,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17807,
@@ -40,5 +43,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14435
+  "elapsed_seconds": 14400
 }
