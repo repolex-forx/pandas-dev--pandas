@@ -2,8 +2,10 @@
   "commit_sha": "366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670",
   "completed_files": [
     "doc/source/conf.py",
+    "pandas/core/groupby/generic.py",
     "pandas/core/indexes/base.py",
     "pandas/io/clipboard/__init__.py",
+    "pandas/io/formats/format.py",
     "pandas/plotting/_matplotlib/boxplot.py",
     "pandas/tests/arithmetic/test_timedelta64.py",
     "pandas/tests/base/test_unique.py",
@@ -11,19 +13,25 @@
     "pandas/tests/extension/base/reshaping.py",
     "pandas/tests/extension/test_arrow.py",
     "pandas/tests/extension/test_sparse.py",
+    "pandas/tests/frame/methods/test_reset_index.py",
     "pandas/tests/frame/methods/test_sort_values.py",
     "pandas/tests/frame/methods/test_value_counts.py",
     "pandas/tests/indexes/datetimes/test_constructors.py",
     "pandas/tests/indexes/multi/test_indexing.py",
+    "pandas/tests/indexes/multi/test_take.py",
     "pandas/tests/indexes/period/methods/test_shift.py",
     "pandas/tests/indexes/test_old_base.py",
     "pandas/tests/indexing/test_categorical.py",
     "pandas/tests/plotting/frame/test_frame.py",
     "pandas/tests/reductions/test_reductions.py",
     "pandas/tests/scalar/interval/test_arithmetic.py",
+    "pandas/tests/series/methods/test_argsort.py",
+    "pandas/tests/series/test_reductions.py",
     "pandas/tests/strings/test_extract.py",
     "pandas/tests/strings/test_find_replace.py",
-    "pandas/tests/tseries/offsets/test_halfyear.py"
+    "pandas/tests/test_expressions.py",
+    "pandas/tests/tseries/offsets/test_halfyear.py",
+    "pandas/tests/window/test_rolling_functions.py"
   ],
   "completed_types": [],
   "stats": {
@@ -31,13 +39,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz",
     "call_sites": 221488,
     "import_statements": 8539,
-    "call_targets_resolved": 4783,
+    "call_targets_resolved": 5563,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 7598,
+    "errors": 8863,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17807,
@@ -45,5 +53,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14438
+  "elapsed_seconds": 14467
 }
