@@ -2,10 +2,12 @@
   "commit_sha": "366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670",
   "completed_files": [
     "doc/source/conf.py",
+    "pandas/core/arrays/datetimelike.py",
     "pandas/core/groupby/generic.py",
     "pandas/core/indexes/base.py",
     "pandas/io/clipboard/__init__.py",
     "pandas/io/formats/format.py",
+    "pandas/io/formats/style_render.py",
     "pandas/plotting/_matplotlib/boxplot.py",
     "pandas/tests/arithmetic/test_timedelta64.py",
     "pandas/tests/base/test_unique.py",
@@ -39,13 +41,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz",
     "call_sites": 221488,
     "import_statements": 8539,
-    "call_targets_resolved": 5563,
+    "call_targets_resolved": 6370,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 8863,
+    "errors": 9903,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17807,
@@ -53,5 +55,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14467
+  "elapsed_seconds": 14421
 }
