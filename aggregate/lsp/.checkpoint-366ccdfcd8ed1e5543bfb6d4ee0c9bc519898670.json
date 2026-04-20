@@ -7,6 +7,7 @@
     "pandas/core/groupby/generic.py",
     "pandas/core/indexes/base.py",
     "pandas/core/indexes/category.py",
+    "pandas/core/internals/blocks.py",
     "pandas/core/resample.py",
     "pandas/io/clipboard/__init__.py",
     "pandas/io/formats/format.py",
@@ -16,6 +17,7 @@
     "pandas/tests/arithmetic/test_string.py",
     "pandas/tests/arithmetic/test_timedelta64.py",
     "pandas/tests/arrays/categorical/test_api.py",
+    "pandas/tests/arrays/categorical/test_astype.py",
     "pandas/tests/base/test_unique.py",
     "pandas/tests/config/test_config.py",
     "pandas/tests/dtypes/test_inference.py",
@@ -38,6 +40,7 @@
     "pandas/tests/indexes/multi/test_take.py",
     "pandas/tests/indexes/period/methods/test_shift.py",
     "pandas/tests/indexes/test_old_base.py",
+    "pandas/tests/indexing/multiindex/test_datetime.py",
     "pandas/tests/indexing/test_categorical.py",
     "pandas/tests/indexing/test_chaining_and_caching.py",
     "pandas/tests/indexing/test_floats.py",
@@ -51,10 +54,12 @@
     "pandas/tests/resample/test_base.py",
     "pandas/tests/reshape/merge/test_merge.py",
     "pandas/tests/reshape/merge/test_merge_asof.py",
+    "pandas/tests/reshape/test_crosstab.py",
     "pandas/tests/scalar/interval/test_arithmetic.py",
     "pandas/tests/series/indexing/test_delitem.py",
     "pandas/tests/series/methods/test_argsort.py",
     "pandas/tests/series/methods/test_nlargest.py",
+    "pandas/tests/series/test_constructors.py",
     "pandas/tests/series/test_reductions.py",
     "pandas/tests/strings/test_extract.py",
     "pandas/tests/strings/test_find_replace.py",
@@ -62,7 +67,10 @@
     "pandas/tests/tseries/holiday/test_calendar.py",
     "pandas/tests/tseries/offsets/test_fiscal.py",
     "pandas/tests/tseries/offsets/test_halfyear.py",
-    "pandas/tests/window/test_rolling_functions.py"
+    "pandas/tests/tslibs/test_array_to_datetime.py",
+    "pandas/tests/util/test_assert_almost_equal.py",
+    "pandas/tests/window/test_rolling_functions.py",
+    "web/pandas_web.py"
   ],
   "completed_types": [],
   "stats": {
@@ -70,13 +78,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz",
     "call_sites": 221488,
     "import_statements": 8539,
-    "call_targets_resolved": 10480,
+    "call_targets_resolved": 11433,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 17326,
+    "errors": 18796,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17807,
@@ -84,5 +92,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14421
+  "elapsed_seconds": 14424
 }
