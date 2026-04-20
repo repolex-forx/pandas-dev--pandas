@@ -5,6 +5,7 @@
     "pandas/core/arrays/datetimelike.py",
     "pandas/core/arrays/masked.py",
     "pandas/core/arrays/timedeltas.py",
+    "pandas/core/generic.py",
     "pandas/core/groupby/generic.py",
     "pandas/core/indexes/base.py",
     "pandas/core/indexes/category.py",
@@ -92,13 +93,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz",
     "call_sites": 221488,
     "import_statements": 8539,
-    "call_targets_resolved": 12848,
+    "call_targets_resolved": 13298,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 21245,
+    "errors": 22488,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17807,
@@ -106,5 +107,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14428
+  "elapsed_seconds": 14458
 }
