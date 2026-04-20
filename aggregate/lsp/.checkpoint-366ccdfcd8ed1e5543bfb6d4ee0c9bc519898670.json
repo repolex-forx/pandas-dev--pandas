@@ -42,12 +42,14 @@
     "pandas/tests/indexing/test_chaining_and_caching.py",
     "pandas/tests/indexing/test_floats.py",
     "pandas/tests/indexing/test_iloc.py",
+    "pandas/tests/io/excel/test_style.py",
     "pandas/tests/io/formats/test_format.py",
     "pandas/tests/io/formats/test_to_csv.py",
     "pandas/tests/io/json/test_ujson.py",
     "pandas/tests/plotting/frame/test_frame.py",
     "pandas/tests/reductions/test_reductions.py",
     "pandas/tests/resample/test_base.py",
+    "pandas/tests/reshape/merge/test_merge.py",
     "pandas/tests/reshape/merge/test_merge_asof.py",
     "pandas/tests/scalar/interval/test_arithmetic.py",
     "pandas/tests/series/indexing/test_delitem.py",
@@ -68,13 +70,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz",
     "call_sites": 221488,
     "import_statements": 8539,
-    "call_targets_resolved": 10084,
+    "call_targets_resolved": 10480,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 16094,
+    "errors": 17326,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17807,
@@ -82,5 +84,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14448
+  "elapsed_seconds": 14421
 }
