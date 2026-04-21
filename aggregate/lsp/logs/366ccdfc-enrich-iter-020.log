@@ -1,0 +1,18 @@
+[2026-04-21T00:04:34Z] === ENRICH ITERATION 20 START | repo=pandas-dev/pandas sha=366ccdfc ===
+[2026-04-21T00:04:34Z] [iter=20] PHASE START: enrich repo=pandas-dev/pandas sha=366ccdfc runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/366ccdfc-enrich-iter-020.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz
+[2026-04-21T00:05:07Z] [iter=20] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-21T00:10:56Z] [iter=20] AST store loaded triples=27213315 load_secs=338 mem_mb=1118 MB
+[2026-04-21T00:10:56Z] [iter=20] Step 2: Finding LSP targets mem_mb=1118 MB
+[2026-04-21T00:12:29Z] [iter=20] LSP targets found call_sites=221488 imports=8539 extends=807 implements=0 secs=93
+[2026-04-21T00:12:39Z] [iter=20] Loaded checkpoint partial graph triples=221301
+[2026-04-21T00:14:02Z] [iter=20] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1134 MB
+[2026-04-21T00:17:22Z] [iter=20] Position index built positions=1821689 nodes_with_types=2394343 secs=199 mem_mb=4360 MB
+[2026-04-21T00:17:22Z] [iter=20] Step 3: Starting LSP resolution mem_mb=4360 MB already_completed_types=[] already_completed_files=88
+[2026-04-21T00:17:22Z] [iter=20] Resolving target type target_type=call_site count=221488
+[2026-04-21T00:17:23Z] [iter=20] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=0 resolved=0 errors=0 current=pandas/tests/tools/test_to_datetime.py
+[2026-04-21T02:49:08Z] [iter=20] HEARTBEAT target_type=call_site elapsed_min=164.6 files_done=1 resolved=242 errors=822 current=pandas/tests/computation/test_eval.py
+[2026-04-21T03:46:26Z] [iter=20] HEARTBEAT target_type=call_site elapsed_min=221.9 files_done=2 resolved=743 errors=1133 current=pandas/tests/dtypes/test_common.py
+[2026-04-21T04:05:04Z] [iter=20] CHECKPOINT TRIGGERED elapsed_min=240.5 files_completed=90 new_files_this_iter=2 mem_mb=4395 MB
+[2026-04-21T04:05:04Z] [iter=20] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz triples=231582
+[2026-04-21T04:05:08Z] [iter=20] Checkpoint written, exiting with code 7
+[2026-04-21T04:05:08Z] [iter=20] PHASE END: enrich (checkpointed) elapsed_s=14430 elapsed_min=240.5 files_completed=90

@@ -26,6 +26,7 @@
     "pandas/tests/arrays/sparse/test_reductions.py",
     "pandas/tests/base/test_unique.py",
     "pandas/tests/base/test_value_counts.py",
+    "pandas/tests/computation/test_eval.py",
     "pandas/tests/config/test_config.py",
     "pandas/tests/copy_view/test_indexing.py",
     "pandas/tests/dtypes/test_inference.py",
@@ -79,6 +80,7 @@
     "pandas/tests/strings/test_extract.py",
     "pandas/tests/strings/test_find_replace.py",
     "pandas/tests/test_expressions.py",
+    "pandas/tests/tools/test_to_datetime.py",
     "pandas/tests/tseries/holiday/test_calendar.py",
     "pandas/tests/tseries/offsets/test_business_halfyear.py",
     "pandas/tests/tseries/offsets/test_fiscal.py",
@@ -96,13 +98,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/366ccdfcd8ed1e5543bfb6d4ee0c9bc519898670.nq.gz",
     "call_sites": 221488,
     "import_statements": 8539,
-    "call_targets_resolved": 13988,
+    "call_targets_resolved": 14821,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 23826,
+    "errors": 25060,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17807,
@@ -110,5 +112,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14460
+  "elapsed_seconds": 14429
 }
