@@ -3,11 +3,13 @@
   "completed_files": [
     "pandas/core/frame.py",
     "pandas/core/groupby/generic.py",
+    "pandas/tests/arrays/boolean/test_logical.py",
     "pandas/tests/frame/test_stack_unstack.py",
     "pandas/tests/indexes/multi/test_sorting.py",
     "pandas/tests/indexes/numeric/test_join.py",
     "pandas/tests/resample/test_timedelta.py",
-    "pandas/tests/series/methods/test_replace.py"
+    "pandas/tests/series/methods/test_replace.py",
+    "pandas/tests/tools/test_to_datetime.py"
   ],
   "completed_types": [],
   "stats": {
@@ -15,13 +17,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bb69be8a6c6af980f6dc89d641515502c41880a4.nq.gz",
     "call_sites": 221461,
     "import_statements": 8555,
-    "call_targets_resolved": 1834,
+    "call_targets_resolved": 2359,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 3040,
+    "errors": 4270,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -29,5 +31,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14415
+  "elapsed_seconds": 14437
 }
