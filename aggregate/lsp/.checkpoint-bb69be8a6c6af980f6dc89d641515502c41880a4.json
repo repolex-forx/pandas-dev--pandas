@@ -19,6 +19,7 @@
     "pandas/tests/io/formats/test_to_string.py",
     "pandas/tests/io/parser/common/test_chunksize.py",
     "pandas/tests/io/pytables/test_append.py",
+    "pandas/tests/io/test_sql.py",
     "pandas/tests/plotting/test_datetimelike.py",
     "pandas/tests/resample/test_timedelta.py",
     "pandas/tests/series/methods/test_replace.py",
@@ -38,13 +39,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bb69be8a6c6af980f6dc89d641515502c41880a4.nq.gz",
     "call_sites": 221461,
     "import_statements": 8555,
-    "call_targets_resolved": 5192,
+    "call_targets_resolved": 5381,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 10249,
+    "errors": 11490,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -52,5 +53,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14446
+  "elapsed_seconds": 14452
 }
