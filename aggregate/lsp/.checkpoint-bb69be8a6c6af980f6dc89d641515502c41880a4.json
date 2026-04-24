@@ -38,6 +38,7 @@
     "pandas/tests/plotting/frame/test_frame_groupby.py",
     "pandas/tests/plotting/test_datetimelike.py",
     "pandas/tests/plotting/test_misc.py",
+    "pandas/tests/resample/test_datetime_index.py",
     "pandas/tests/resample/test_timedelta.py",
     "pandas/tests/reshape/concat/test_append_common.py",
     "pandas/tests/reshape/merge/test_merge.py",
@@ -62,13 +63,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bb69be8a6c6af980f6dc89d641515502c41880a4.nq.gz",
     "call_sites": 221461,
     "import_statements": 8555,
-    "call_targets_resolved": 9798,
+    "call_targets_resolved": 10203,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 20386,
+    "errors": 21619,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -76,5 +77,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14443
+  "elapsed_seconds": 14465
 }
