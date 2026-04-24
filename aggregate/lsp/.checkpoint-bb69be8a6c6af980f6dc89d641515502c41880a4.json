@@ -27,7 +27,9 @@
     "pandas/tests/indexes/multi/test_sorting.py",
     "pandas/tests/indexes/numeric/test_join.py",
     "pandas/tests/indexing/test_categorical.py",
+    "pandas/tests/internals/test_internals.py",
     "pandas/tests/io/formats/style/test_style.py",
+    "pandas/tests/io/formats/test_format.py",
     "pandas/tests/io/formats/test_to_string.py",
     "pandas/tests/io/parser/common/test_chunksize.py",
     "pandas/tests/io/parser/common/test_index.py",
@@ -60,13 +62,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bb69be8a6c6af980f6dc89d641515502c41880a4.nq.gz",
     "call_sites": 221461,
     "import_statements": 8555,
-    "call_targets_resolved": 9261,
+    "call_targets_resolved": 9798,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 19188,
+    "errors": 20386,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -74,5 +76,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14426
+  "elapsed_seconds": 14443
 }
