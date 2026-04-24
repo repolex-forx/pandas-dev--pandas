@@ -9,9 +9,11 @@
     "pandas/core/reshape/pivot.py",
     "pandas/io/formats/string.py",
     "pandas/io/xml.py",
+    "pandas/tests/arithmetic/test_numeric.py",
     "pandas/tests/arrays/boolean/test_logical.py",
     "pandas/tests/arrays/integer/test_function.py",
     "pandas/tests/arrays/interval/test_interval.py",
+    "pandas/tests/arrays/test_datetimelike.py",
     "pandas/tests/dtypes/test_missing.py",
     "pandas/tests/extension/test_numpy.py",
     "pandas/tests/frame/indexing/test_indexing.py",
@@ -56,13 +58,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bb69be8a6c6af980f6dc89d641515502c41880a4.nq.gz",
     "call_sites": 221461,
     "import_statements": 8555,
-    "call_targets_resolved": 7806,
+    "call_targets_resolved": 8791,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 16700,
+    "errors": 17915,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -70,5 +72,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14428
+  "elapsed_seconds": 14413
 }
