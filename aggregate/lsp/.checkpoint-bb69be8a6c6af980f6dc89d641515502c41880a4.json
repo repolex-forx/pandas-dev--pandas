@@ -2,6 +2,7 @@
   "commit_sha": "bb69be8a6c6af980f6dc89d641515502c41880a4",
   "completed_files": [
     "asv_bench/benchmarks/array.py",
+    "pandas/core/arrays/arrow/array.py",
     "pandas/core/arrays/sparse/array.py",
     "pandas/core/construction.py",
     "pandas/core/frame.py",
@@ -24,6 +25,7 @@
     "pandas/tests/groupby/test_grouping.py",
     "pandas/tests/indexes/categorical/test_constructors.py",
     "pandas/tests/indexes/categorical/test_indexing.py",
+    "pandas/tests/indexes/datetimes/methods/test_astype.py",
     "pandas/tests/indexes/multi/test_sorting.py",
     "pandas/tests/indexes/numeric/test_join.py",
     "pandas/tests/indexing/test_categorical.py",
@@ -36,6 +38,7 @@
     "pandas/tests/io/pytables/test_append.py",
     "pandas/tests/io/test_sql.py",
     "pandas/tests/plotting/frame/test_frame_groupby.py",
+    "pandas/tests/plotting/frame/test_frame_subplots.py",
     "pandas/tests/plotting/test_datetimelike.py",
     "pandas/tests/plotting/test_misc.py",
     "pandas/tests/resample/test_datetime_index.py",
@@ -52,6 +55,7 @@
     "pandas/tests/test_take.py",
     "pandas/tests/tools/test_to_datetime.py",
     "pandas/tests/tseries/offsets/test_business_halfyear.py",
+    "pandas/tests/tseries/offsets/test_business_hour.py",
     "pandas/tests/util/test_assert_series_equal.py",
     "pandas/tests/util/test_hashing.py",
     "pandas/tests/window/test_numba.py",
@@ -63,13 +67,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bb69be8a6c6af980f6dc89d641515502c41880a4.nq.gz",
     "call_sites": 221461,
     "import_statements": 8555,
-    "call_targets_resolved": 10203,
+    "call_targets_resolved": 10632,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 21619,
+    "errors": 22780,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -77,5 +81,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14465
+  "elapsed_seconds": 14401
 }
