@@ -41,6 +41,7 @@
     "pandas/tests/dtypes/test_common.py",
     "pandas/tests/dtypes/test_missing.py",
     "pandas/tests/extension/array_with_attr/array.py",
+    "pandas/tests/extension/test_arrow.py",
     "pandas/tests/extension/test_numpy.py",
     "pandas/tests/frame/indexing/test_indexing.py",
     "pandas/tests/frame/methods/test_drop.py",
@@ -57,6 +58,7 @@
     "pandas/tests/indexes/categorical/test_category.py",
     "pandas/tests/indexes/categorical/test_constructors.py",
     "pandas/tests/indexes/categorical/test_indexing.py",
+    "pandas/tests/indexes/datetimelike_/test_value_counts.py",
     "pandas/tests/indexes/datetimes/methods/test_astype.py",
     "pandas/tests/indexes/datetimes/methods/test_to_period.py",
     "pandas/tests/indexes/interval/test_indexing.py",
@@ -86,6 +88,7 @@
     "pandas/tests/plotting/test_misc.py",
     "pandas/tests/reductions/test_reductions.py",
     "pandas/tests/resample/test_datetime_index.py",
+    "pandas/tests/resample/test_period_index.py",
     "pandas/tests/resample/test_timedelta.py",
     "pandas/tests/reshape/concat/test_append_common.py",
     "pandas/tests/reshape/merge/test_merge.py",
@@ -121,13 +124,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bb69be8a6c6af980f6dc89d641515502c41880a4.nq.gz",
     "call_sites": 221461,
     "import_statements": 8555,
-    "call_targets_resolved": 19481,
+    "call_targets_resolved": 20526,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 35968,
+    "errors": 37722,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -135,5 +138,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14434
+  "elapsed_seconds": 14437
 }
