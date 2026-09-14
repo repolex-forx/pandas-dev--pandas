@@ -39,12 +39,14 @@
     "pandas/tests/copy_view/test_interp_fillna.py",
     "pandas/tests/copy_view/test_methods.py",
     "pandas/tests/dtypes/test_common.py",
+    "pandas/tests/dtypes/test_inference.py",
     "pandas/tests/dtypes/test_missing.py",
     "pandas/tests/extension/array_with_attr/array.py",
     "pandas/tests/extension/test_arrow.py",
     "pandas/tests/extension/test_numpy.py",
     "pandas/tests/frame/indexing/test_indexing.py",
     "pandas/tests/frame/methods/test_drop.py",
+    "pandas/tests/frame/methods/test_filter.py",
     "pandas/tests/frame/methods/test_replace.py",
     "pandas/tests/frame/methods/test_round.py",
     "pandas/tests/frame/test_constructors.py",
@@ -124,13 +126,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bb69be8a6c6af980f6dc89d641515502c41880a4.nq.gz",
     "call_sites": 221461,
     "import_statements": 8555,
-    "call_targets_resolved": 20526,
+    "call_targets_resolved": 21163,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 37722,
+    "errors": 38914,
     "extends_clauses": 807,
     "implements_clauses": 0,
     "import_modules_denormalized": 17875,
@@ -138,5 +140,5 @@
     "extends_class_denormalized": 804,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14437
+  "elapsed_seconds": 14423
 }
