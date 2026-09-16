@@ -24,6 +24,7 @@
     "pandas/tests/reshape/test_crosstab.py",
     "pandas/tests/scalar/timestamp/test_timestamp.py",
     "pandas/tests/series/indexing/test_indexing.py",
+    "pandas/tests/series/test_constructors.py",
     "pandas/tests/tseries/offsets/test_business_hour.py",
     "pandas/tests/tseries/offsets/test_business_year.py"
   ],
@@ -33,13 +34,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9c8bc3e55188c8aff37207a74f1dd144980b8874.nq.gz",
     "call_sites": 221452,
     "import_statements": 657,
-    "call_targets_resolved": 1784,
+    "call_targets_resolved": 2204,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 8311,
+    "errors": 9491,
     "extends_clauses": 29,
     "implements_clauses": 0,
     "import_modules_denormalized": 1058,
@@ -47,5 +48,5 @@
     "extends_class_denormalized": 29,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14443
+  "elapsed_seconds": 14421
 }
