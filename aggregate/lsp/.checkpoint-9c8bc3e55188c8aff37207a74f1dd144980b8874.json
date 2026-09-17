@@ -2,11 +2,13 @@
   "commit_sha": "9c8bc3e55188c8aff37207a74f1dd144980b8874",
   "completed_files": [
     "asv_bench/benchmarks/arithmetic.py",
+    "pandas/core/arrays/datetimelike.py",
     "pandas/core/arrays/string_.py",
     "pandas/core/generic.py",
     "pandas/core/indexes/datetimes.py",
     "pandas/core/internals/blocks.py",
     "pandas/core/nanops.py",
+    "pandas/core/reshape/merge.py",
     "pandas/core/sorting.py",
     "pandas/core/util/hashing.py",
     "pandas/core/window/expanding.py",
@@ -21,6 +23,7 @@
     "pandas/tests/frame/indexing/test_setitem.py",
     "pandas/tests/frame/indexing/test_where.py",
     "pandas/tests/frame/indexing/test_xs.py",
+    "pandas/tests/frame/methods/test_quantile.py",
     "pandas/tests/frame/test_query_eval.py",
     "pandas/tests/groupby/test_categorical.py",
     "pandas/tests/groupby/test_groupby_subclass.py",
@@ -58,13 +61,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9c8bc3e55188c8aff37207a74f1dd144980b8874.nq.gz",
     "call_sites": 221452,
     "import_statements": 657,
-    "call_targets_resolved": 4785,
+    "call_targets_resolved": 5409,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 15969,
+    "errors": 17141,
     "extends_clauses": 29,
     "implements_clauses": 0,
     "import_modules_denormalized": 1058,
@@ -72,5 +75,5 @@
     "extends_class_denormalized": 29,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14468
+  "elapsed_seconds": 14446
 }
