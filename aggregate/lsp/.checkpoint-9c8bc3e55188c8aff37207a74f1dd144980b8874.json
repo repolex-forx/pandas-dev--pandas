@@ -2,6 +2,7 @@
   "commit_sha": "9c8bc3e55188c8aff37207a74f1dd144980b8874",
   "completed_files": [
     "asv_bench/benchmarks/arithmetic.py",
+    "pandas/core/arrays/string_.py",
     "pandas/core/generic.py",
     "pandas/core/indexes/datetimes.py",
     "pandas/core/internals/blocks.py",
@@ -17,6 +18,7 @@
     "pandas/tests/extension/base/methods.py",
     "pandas/tests/extension/decimal/test_decimal.py",
     "pandas/tests/frame/indexing/test_setitem.py",
+    "pandas/tests/frame/indexing/test_where.py",
     "pandas/tests/groupby/test_categorical.py",
     "pandas/tests/groupby/test_groupby_subclass.py",
     "pandas/tests/indexes/datetimes/methods/test_to_period.py",
@@ -24,6 +26,8 @@
     "pandas/tests/indexes/test_old_base.py",
     "pandas/tests/indexing/test_coercion.py",
     "pandas/tests/indexing/test_loc.py",
+    "pandas/tests/io/formats/style/test_highlight.py",
+    "pandas/tests/io/json/test_json_table_schema.py",
     "pandas/tests/io/parser/test_compression.py",
     "pandas/tests/io/parser/test_read_fwf.py",
     "pandas/tests/io/parser/usecols/test_usecols_basic.py",
@@ -34,12 +38,14 @@
     "pandas/tests/resample/test_datetime_index.py",
     "pandas/tests/reshape/test_crosstab.py",
     "pandas/tests/reshape/test_pivot.py",
+    "pandas/tests/scalar/timedelta/test_arithmetic.py",
     "pandas/tests/scalar/timestamp/test_timestamp.py",
     "pandas/tests/series/indexing/test_indexing.py",
     "pandas/tests/series/test_constructors.py",
     "pandas/tests/strings/test_split_partition.py",
     "pandas/tests/tseries/offsets/test_business_hour.py",
     "pandas/tests/tseries/offsets/test_business_year.py",
+    "pandas/tests/tseries/offsets/test_fiscal.py",
     "pandas/tests/window/moments/test_moments_consistency_expanding.py"
   ],
   "completed_types": [],
@@ -48,13 +54,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9c8bc3e55188c8aff37207a74f1dd144980b8874.nq.gz",
     "call_sites": 221452,
     "import_statements": 657,
-    "call_targets_resolved": 3994,
+    "call_targets_resolved": 4312,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 13653,
+    "errors": 14809,
     "extends_clauses": 29,
     "implements_clauses": 0,
     "import_modules_denormalized": 1058,
@@ -62,5 +68,5 @@
     "extends_class_denormalized": 29,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14412
+  "elapsed_seconds": 14456
 }
