@@ -7,6 +7,7 @@
     "pandas/core/arrays/string_.py",
     "pandas/core/generic.py",
     "pandas/core/indexes/datetimes.py",
+    "pandas/core/indexes/multi.py",
     "pandas/core/indexing.py",
     "pandas/core/internals/blocks.py",
     "pandas/core/nanops.py",
@@ -20,10 +21,12 @@
     "pandas/io/parsers/readers.py",
     "pandas/tests/apply/test_frame_apply.py",
     "pandas/tests/apply/test_invalid_arg.py",
+    "pandas/tests/apply/test_series_apply.py",
     "pandas/tests/arithmetic/test_period.py",
     "pandas/tests/arrays/floating/test_comparison.py",
     "pandas/tests/arrays/sparse/test_indexing.py",
     "pandas/tests/arrays/sparse/test_libsparse.py",
+    "pandas/tests/arrays/test_timedeltas.py",
     "pandas/tests/copy_view/test_methods.py",
     "pandas/tests/dtypes/test_common.py",
     "pandas/tests/dtypes/test_dtypes.py",
@@ -92,13 +95,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9c8bc3e55188c8aff37207a74f1dd144980b8874.nq.gz",
     "call_sites": 221452,
     "import_statements": 657,
-    "call_targets_resolved": 8239,
+    "call_targets_resolved": 8820,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 24710,
+    "errors": 25880,
     "extends_clauses": 29,
     "implements_clauses": 0,
     "import_modules_denormalized": 1058,
@@ -106,5 +109,5 @@
     "extends_class_denormalized": 29,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14432
+  "elapsed_seconds": 14412
 }
