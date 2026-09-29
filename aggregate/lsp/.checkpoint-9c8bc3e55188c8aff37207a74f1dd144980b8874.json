@@ -1,6 +1,7 @@
 {
   "commit_sha": "9c8bc3e55188c8aff37207a74f1dd144980b8874",
   "completed_files": [
+    "asv_bench/benchmarks/algorithms.py",
     "asv_bench/benchmarks/arithmetic.py",
     "pandas/core/arrays/arrow/array.py",
     "pandas/core/arrays/datetimelike.py",
@@ -38,7 +39,9 @@
     "pandas/tests/frame/indexing/test_xs.py",
     "pandas/tests/frame/methods/test_quantile.py",
     "pandas/tests/frame/test_query_eval.py",
+    "pandas/tests/generic/test_finalize.py",
     "pandas/tests/generic/test_generic.py",
+    "pandas/tests/groupby/aggregate/test_numba.py",
     "pandas/tests/groupby/test_apply.py",
     "pandas/tests/groupby/test_categorical.py",
     "pandas/tests/groupby/test_groupby_subclass.py",
@@ -81,6 +84,7 @@
     "pandas/tests/strings/test_extract.py",
     "pandas/tests/strings/test_find_replace.py",
     "pandas/tests/strings/test_split_partition.py",
+    "pandas/tests/test_algos.py",
     "pandas/tests/tools/test_to_numeric.py",
     "pandas/tests/tseries/holiday/test_observance.py",
     "pandas/tests/tseries/offsets/test_business_hour.py",
@@ -95,13 +99,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9c8bc3e55188c8aff37207a74f1dd144980b8874.nq.gz",
     "call_sites": 221452,
     "import_statements": 657,
-    "call_targets_resolved": 8820,
+    "call_targets_resolved": 9292,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 25880,
+    "errors": 27048,
     "extends_clauses": 29,
     "implements_clauses": 0,
     "import_modules_denormalized": 1058,
@@ -109,5 +113,5 @@
     "extends_class_denormalized": 29,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14412
+  "elapsed_seconds": 14493
 }
