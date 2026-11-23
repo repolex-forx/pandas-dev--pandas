@@ -30,9 +30,39 @@
       "repolex:graphType": "tag",
       "repolex:graphFilePath": "tag/tag.nq.gz",
       "repolex:graphFileSize": 18101
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/4665c10899bc413b639194f6fb8665a5c70f7db5/chunk-001.nq.gz",
+      "repolex:graphFileSize": 83964828
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/4665c10899bc413b639194f6fb8665a5c70f7db5/chunk-002.nq.gz",
+      "repolex:graphFileSize": 83972368
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/4665c10899bc413b639194f6fb8665a5c70f7db5/chunk-003.nq.gz",
+      "repolex:graphFileSize": 84002909
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/4665c10899bc413b639194f6fb8665a5c70f7db5/chunk-004.nq.gz",
+      "repolex:graphFileSize": 83939336
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "ast",
+      "repolex:graphFilePath": "aggregate/ast/4665c10899bc413b639194f6fb8665a5c70f7db5/chunk-005.nq.gz",
+      "repolex:graphFileSize": 55121128
     }
   ],
-  "repolex:parseStatus": "metadata_complete",
+  "repolex:parseStatus": "ast_complete",
   "repolex:parsedAt": "2026-11-23T21:46:05.624431+00:00",
   "repolex:parserVersion": "0.1.10",
   "git:tagName": "v2.3.2"
