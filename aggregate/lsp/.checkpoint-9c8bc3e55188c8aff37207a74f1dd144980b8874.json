@@ -25,6 +25,7 @@
     "pandas/io/formats/info.py",
     "pandas/io/parsers/python_parser.py",
     "pandas/io/parsers/readers.py",
+    "pandas/io/pytables.py",
     "pandas/tests/apply/test_frame_apply.py",
     "pandas/tests/apply/test_invalid_arg.py",
     "pandas/tests/apply/test_series_apply.py",
@@ -55,6 +56,7 @@
     "pandas/tests/groupby/test_groupby_subclass.py",
     "pandas/tests/groupby/test_reductions.py",
     "pandas/tests/indexes/datetimes/methods/test_to_period.py",
+    "pandas/tests/indexes/multi/test_analytics.py",
     "pandas/tests/indexes/multi/test_reindex.py",
     "pandas/tests/indexes/period/test_period.py",
     "pandas/tests/indexes/test_base.py",
@@ -110,7 +112,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9c8bc3e55188c8aff37207a74f1dd144980b8874.nq.gz",
     "call_sites": 221452,
     "import_statements": 657,
-    "call_targets_resolved": 13963,
+    "call_targets_resolved": 14091,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -124,5 +126,5 @@
     "extends_class_denormalized": 29,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1869
+  "elapsed_seconds": 1842
 }
