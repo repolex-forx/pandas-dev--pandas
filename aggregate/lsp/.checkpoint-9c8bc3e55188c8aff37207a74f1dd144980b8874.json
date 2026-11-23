@@ -22,6 +22,7 @@
     "pandas/core/util/hashing.py",
     "pandas/core/window/expanding.py",
     "pandas/io/formats/format.py",
+    "pandas/io/formats/info.py",
     "pandas/io/parsers/python_parser.py",
     "pandas/io/parsers/readers.py",
     "pandas/tests/apply/test_frame_apply.py",
@@ -29,6 +30,7 @@
     "pandas/tests/apply/test_series_apply.py",
     "pandas/tests/arithmetic/test_period.py",
     "pandas/tests/arrays/floating/test_comparison.py",
+    "pandas/tests/arrays/sparse/test_array.py",
     "pandas/tests/arrays/sparse/test_indexing.py",
     "pandas/tests/arrays/sparse/test_libsparse.py",
     "pandas/tests/arrays/test_timedeltas.py",
@@ -108,7 +110,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/9c8bc3e55188c8aff37207a74f1dd144980b8874.nq.gz",
     "call_sites": 221452,
     "import_statements": 657,
-    "call_targets_resolved": 12787,
+    "call_targets_resolved": 13084,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -122,5 +124,5 @@
     "extends_class_denormalized": 29,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1825
+  "elapsed_seconds": 1802
 }
