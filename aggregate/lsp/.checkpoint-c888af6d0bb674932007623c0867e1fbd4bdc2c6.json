@@ -1,0 +1,27 @@
+{
+  "commit_sha": "c888af6d0bb674932007623c0867e1fbd4bdc2c6",
+  "completed_files": [
+    "pandas/core/reshape/pivot.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/pandas-dev/pandas/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6.nq.gz",
+    "call_sites": 221123,
+    "import_statements": 1662,
+    "call_targets_resolved": 232,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 112,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 3573,
+    "import_symbols_denormalized": 15871,
+    "extends_class_denormalized": 108,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1804
+}
