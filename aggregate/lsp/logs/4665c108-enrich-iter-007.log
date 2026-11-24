@@ -1,0 +1,17 @@
+[2026-11-24T02:25:41Z] === ENRICH ITERATION 7 START | repo=pandas-dev/pandas sha=4665c108 ===
+[2026-11-24T02:25:41Z] [iter=7] PHASE START: enrich repo=pandas-dev/pandas sha=4665c108 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4665c108-enrich-iter-007.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4665c10899bc413b639194f6fb8665a5c70f7db5.nq.gz
+[2026-11-24T02:26:13Z] [iter=7] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-24T02:32:32Z] [iter=7] AST store loaded triples=27308295 load_secs=368 mem_mb=1072 MB
+[2026-11-24T02:32:32Z] [iter=7] Step 2: Finding LSP targets mem_mb=1072 MB
+[2026-11-24T02:34:11Z] [iter=7] LSP targets found call_sites=221230 imports=1544 extends=104 implements=0 secs=99
+[2026-11-24T02:34:13Z] [iter=7] Loaded checkpoint partial graph triples=39793
+[2026-11-24T02:34:13Z] [iter=7] Primed enclosing-def cache from persisted triples entries=126
+[2026-11-24T02:35:29Z] [iter=7] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1072 MB
+[2026-11-24T02:39:01Z] [iter=7] Position index built positions=1816152 nodes_with_types=2386432 secs=212 mem_mb=3938 MB
+[2026-11-24T02:39:01Z] [iter=7] Step 3: Starting LSP resolution mem_mb=3938 MB already_completed_types=[] already_completed_files=2
+[2026-11-24T02:39:01Z] [iter=7] Resolving target type target_type=call_site count=221230
+[2026-11-24T02:39:03Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=0 resolved=0 errors=0 current=pandas/tests/frame/test_constructors.py
+[2026-11-24T02:55:55Z] [iter=7] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=2 new_files_this_iter=0 mem_mb=3939 MB
+[2026-11-24T02:55:55Z] [iter=7] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/4665c10899bc413b639194f6fb8665a5c70f7db5.nq.gz triples=40823
+[2026-11-24T02:55:56Z] [iter=7] Checkpoint written, exiting with code 7
+[2026-11-24T02:55:56Z] [iter=7] PHASE END: enrich (checkpointed) elapsed_s=1815 elapsed_min=30.2 files_completed=2
