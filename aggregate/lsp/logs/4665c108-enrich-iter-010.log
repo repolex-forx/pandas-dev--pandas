@@ -1,0 +1,17 @@
+[2026-11-24T04:14:00Z] === ENRICH ITERATION 10 START | repo=pandas-dev/pandas sha=4665c108 ===
+[2026-11-24T04:14:00Z] [iter=10] PHASE START: enrich repo=pandas-dev/pandas sha=4665c108 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4665c108-enrich-iter-010.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4665c10899bc413b639194f6fb8665a5c70f7db5.nq.gz
+[2026-11-24T04:14:29Z] [iter=10] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-24T04:19:46Z] [iter=10] AST store loaded triples=27308295 load_secs=311 mem_mb=1109 MB
+[2026-11-24T04:19:46Z] [iter=10] Step 2: Finding LSP targets mem_mb=1109 MB
+[2026-11-24T04:20:52Z] [iter=10] LSP targets found call_sites=221230 imports=1544 extends=104 implements=0 secs=65
+[2026-11-24T04:20:53Z] [iter=10] Loaded checkpoint partial graph triples=43970
+[2026-11-24T04:20:53Z] [iter=10] Primed enclosing-def cache from persisted triples entries=164
+[2026-11-24T04:21:45Z] [iter=10] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1109 MB
+[2026-11-24T04:23:46Z] [iter=10] Position index built positions=1816152 nodes_with_types=2386432 secs=122 mem_mb=4100 MB
+[2026-11-24T04:23:46Z] [iter=10] Step 3: Starting LSP resolution mem_mb=4100 MB already_completed_types=[] already_completed_files=3
+[2026-11-24T04:23:46Z] [iter=10] Resolving target type target_type=call_site count=221230
+[2026-11-24T04:23:48Z] [iter=10] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=0 resolved=0 errors=0 current=pandas/tests/extension/test_arrow.py
+[2026-11-24T04:44:07Z] [iter=10] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=3 new_files_this_iter=0 mem_mb=4102 MB
+[2026-11-24T04:44:07Z] [iter=10] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/4665c10899bc413b639194f6fb8665a5c70f7db5.nq.gz triples=45952
+[2026-11-24T04:44:07Z] [iter=10] Checkpoint written, exiting with code 7
+[2026-11-24T04:44:07Z] [iter=10] PHASE END: enrich (checkpointed) elapsed_s=1807 elapsed_min=30.1 files_completed=3
