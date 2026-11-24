@@ -9,6 +9,7 @@
     "pandas/tests/extension/decimal/test_decimal.py",
     "pandas/tests/indexes/ranges/test_setops.py",
     "pandas/tests/io/formats/test_to_string.py",
+    "pandas/tests/reshape/merge/test_merge_asof.py",
     "pandas/tests/scalar/timestamp/methods/test_timestamp_method.py",
     "pandas/tests/series/methods/test_isin.py"
   ],
@@ -18,7 +19,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6.nq.gz",
     "call_sites": 221123,
     "import_statements": 1662,
-    "call_targets_resolved": 3079,
+    "call_targets_resolved": 3211,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -32,5 +33,5 @@
     "extends_class_denormalized": 108,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1860
+  "elapsed_seconds": 1861
 }
