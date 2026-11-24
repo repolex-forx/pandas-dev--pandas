@@ -1,6 +1,7 @@
 {
   "commit_sha": "c888af6d0bb674932007623c0867e1fbd4bdc2c6",
   "completed_files": [
+    "pandas/core/arraylike.py",
     "pandas/core/reshape/pivot.py",
     "pandas/tests/io/formats/test_to_string.py",
     "pandas/tests/series/methods/test_isin.py"
@@ -11,7 +12,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6.nq.gz",
     "call_sites": 221123,
     "import_statements": 1662,
-    "call_targets_resolved": 752,
+    "call_targets_resolved": 919,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -25,5 +26,5 @@
     "extends_class_denormalized": 108,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1809
+  "elapsed_seconds": 1836
 }
