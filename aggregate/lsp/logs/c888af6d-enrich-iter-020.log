@@ -1,0 +1,17 @@
+[2026-11-24T18:57:42Z] === ENRICH ITERATION 20 START | repo=pandas-dev/pandas sha=c888af6d ===
+[2026-11-24T18:57:42Z] [iter=20] PHASE START: enrich repo=pandas-dev/pandas sha=c888af6d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c888af6d-enrich-iter-020.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6.nq.gz
+[2026-11-24T18:58:14Z] [iter=20] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-24T19:04:24Z] [iter=20] AST store loaded triples=27296836 load_secs=360 mem_mb=1080 MB
+[2026-11-24T19:04:24Z] [iter=20] Step 2: Finding LSP targets mem_mb=1080 MB
+[2026-11-24T19:06:06Z] [iter=20] LSP targets found call_sites=221123 imports=1662 extends=112 implements=0 secs=102
+[2026-11-24T19:06:09Z] [iter=20] Loaded checkpoint partial graph triples=52564
+[2026-11-24T19:06:09Z] [iter=20] Primed enclosing-def cache from persisted triples entries=267
+[2026-11-24T19:07:31Z] [iter=20] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1080 MB
+[2026-11-24T19:11:04Z] [iter=20] Position index built positions=1815418 nodes_with_types=2385463 secs=213 mem_mb=3775 MB
+[2026-11-24T19:11:04Z] [iter=20] Step 3: Starting LSP resolution mem_mb=3775 MB already_completed_types=[] already_completed_files=9
+[2026-11-24T19:11:04Z] [iter=20] Resolving target type target_type=call_site count=221123
+[2026-11-24T19:11:06Z] [iter=20] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=0 resolved=0 errors=0 current=pandas/tests/dtypes/test_missing.py
+[2026-11-24T19:29:08Z] [iter=20] CHECKPOINT TRIGGERED elapsed_min=31.4 files_completed=9 new_files_this_iter=0 mem_mb=3783 MB
+[2026-11-24T19:29:08Z] [iter=20] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6.nq.gz triples=53244
+[2026-11-24T19:29:08Z] [iter=20] Checkpoint written, exiting with code 7
+[2026-11-24T19:29:08Z] [iter=20] PHASE END: enrich (checkpointed) elapsed_s=1885 elapsed_min=31.4 files_completed=9
