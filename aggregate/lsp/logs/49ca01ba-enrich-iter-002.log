@@ -1,0 +1,19 @@
+[2026-11-25T20:24:06Z] === ENRICH ITERATION 2 START | repo=pandas-dev/pandas sha=49ca01ba ===
+[2026-11-25T20:24:06Z] [iter=2] PHASE START: enrich repo=pandas-dev/pandas sha=49ca01ba runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/49ca01ba-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz
+[2026-11-25T20:24:38Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=74 MB
+[2026-11-25T20:33:19Z] [iter=2] AST store loaded triples=26067504 load_secs=513 mem_mb=1117 MB
+[2026-11-25T20:33:19Z] [iter=2] Step 2: Finding LSP targets mem_mb=1117 MB
+[2026-11-25T20:34:42Z] [iter=2] LSP targets found call_sites=211326 imports=7075 extends=839 implements=0 secs=83
+[2026-11-25T20:34:43Z] [iter=2] Loaded checkpoint partial graph triples=40991
+[2026-11-25T20:34:43Z] [iter=2] Primed enclosing-def cache from persisted triples entries=25
+[2026-11-25T20:35:46Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1117 MB
+[2026-11-25T20:38:02Z] [iter=2] Position index built positions=1729126 nodes_with_types=2272039 secs=136 mem_mb=3817 MB
+[2026-11-25T20:38:02Z] [iter=2] Step 3: Starting LSP resolution mem_mb=3817 MB already_completed_types=[] already_completed_files=0
+[2026-11-25T20:38:02Z] [iter=2] Resolving target type target_type=call_site count=211326
+[2026-11-25T20:38:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=14.0 files_done=0 resolved=0 errors=0 current=pandas/tests/generic/test_generic.py
+[2026-11-25T20:39:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=1 resolved=16 errors=0 current=pandas/tests/tseries/offsets/test_month.py
+[2026-11-25T20:53:19Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.2 files_done=2 resolved=138 errors=0 current=pandas/tests/frame/methods/test_fillna.py
+[2026-11-25T20:54:41Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=30.6 files_completed=2 new_files_this_iter=2 mem_mb=3819 MB
+[2026-11-25T20:54:41Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz triples=42684
+[2026-11-25T20:54:42Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-11-25T20:54:42Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=1835 elapsed_min=30.6 files_completed=2
