@@ -1,0 +1,17 @@
+[2026-11-25T09:35:29Z] === ENRICH ITERATION 45 START | repo=pandas-dev/pandas sha=c888af6d ===
+[2026-11-25T09:35:29Z] [iter=45] PHASE START: enrich repo=pandas-dev/pandas sha=c888af6d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c888af6d-enrich-iter-045.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6.nq.gz
+[2026-11-25T09:36:13Z] [iter=45] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-25T09:44:00Z] [iter=45] AST store loaded triples=27296836 load_secs=460 mem_mb=1009 MB
+[2026-11-25T09:44:00Z] [iter=45] Step 2: Finding LSP targets mem_mb=1009 MB
+[2026-11-25T09:45:09Z] [iter=45] LSP targets found call_sites=221123 imports=1662 extends=112 implements=0 secs=69
+[2026-11-25T09:45:13Z] [iter=45] Loaded checkpoint partial graph triples=85455
+[2026-11-25T09:45:13Z] [iter=45] Primed enclosing-def cache from persisted triples entries=543
+[2026-11-25T09:46:07Z] [iter=45] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1009 MB
+[2026-11-25T09:48:23Z] [iter=45] Position index built positions=1815418 nodes_with_types=2385463 secs=136 mem_mb=3962 MB
+[2026-11-25T09:48:23Z] [iter=45] Step 3: Starting LSP resolution mem_mb=3962 MB already_completed_types=[] already_completed_files=17
+[2026-11-25T09:48:23Z] [iter=45] Resolving target type target_type=call_site count=221123
+[2026-11-25T09:48:25Z] [iter=45] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=0 resolved=0 errors=0 current=pandas/core/generic.py
+[2026-11-25T10:06:06Z] [iter=45] CHECKPOINT TRIGGERED elapsed_min=30.6 files_completed=17 new_files_this_iter=0 mem_mb=3968 MB
+[2026-11-25T10:06:06Z] [iter=45] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6.nq.gz triples=87344
+[2026-11-25T10:06:07Z] [iter=45] Checkpoint written, exiting with code 7
+[2026-11-25T10:06:07Z] [iter=45] PHASE END: enrich (checkpointed) elapsed_s=1837 elapsed_min=30.6 files_completed=17
