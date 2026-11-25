@@ -1,0 +1,39 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/pandas-dev/pandas/commit/49ca01ba9023b677f2b2d1c42e99f45595258b74",
+  "@type": "git:Commit",
+  "git:hexsha": "49ca01ba9023b677f2b2d1c42e99f45595258b74",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/pandas-dev/pandas"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz",
+      "repolex:graphFileSize": 636580
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 23731822
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 1598
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 17840
+    }
+  ],
+  "repolex:parseStatus": "metadata_complete",
+  "repolex:parsedAt": "2026-11-25T17:08:33.890033+00:00",
+  "repolex:parserVersion": "0.1.10",
+  "git:tagName": "v2.2.0.dev0"
+}
