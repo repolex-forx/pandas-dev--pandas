@@ -1,0 +1,16 @@
+[2026-11-25T12:39:14Z] === ENRICH ITERATION 1 START | repo=pandas-dev/pandas sha=2cc37625 ===
+[2026-11-25T12:39:14Z] [iter=1] PHASE START: enrich repo=pandas-dev/pandas sha=2cc37625 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/2cc37625-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/2cc37625532045f4ac55b27176454bbbc9baf213.nq.gz
+[2026-11-25T12:39:54Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T12:45:57Z] [iter=1] AST store loaded triples=27274587 load_secs=353 mem_mb=1120 MB
+[2026-11-25T12:45:57Z] [iter=1] Step 2: Finding LSP targets mem_mb=1120 MB
+[2026-11-25T12:47:34Z] [iter=1] LSP targets found call_sites=220978 imports=1916 extends=165 implements=0 secs=97
+[2026-11-25T12:48:49Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1120 MB
+[2026-11-25T12:52:10Z] [iter=1] Position index built positions=1813848 nodes_with_types=2383412 secs=201 mem_mb=3811 MB
+[2026-11-25T12:52:10Z] [iter=1] Step 3: Starting LSP resolution mem_mb=3811 MB already_completed_types=[] already_completed_files=0
+[2026-11-25T12:52:10Z] [iter=1] Resolving target type target_type=call_site count=220978
+[2026-11-25T12:52:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=0 resolved=0 errors=0 current=asv_bench/benchmarks/tslibs/offsets.py
+[2026-11-25T12:56:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.0 files_done=1 resolved=24 errors=0 current=pandas/tests/copy_view/test_methods.py
+[2026-11-25T13:09:35Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.4 files_completed=1 new_files_this_iter=1 mem_mb=3819 MB
+[2026-11-25T13:09:35Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/2cc37625532045f4ac55b27176454bbbc9baf213.nq.gz triples=29881
+[2026-11-25T13:09:35Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-25T13:09:35Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1821 elapsed_min=30.4 files_completed=1

@@ -1,0 +1,27 @@
+{
+  "commit_sha": "2cc37625532045f4ac55b27176454bbbc9baf213",
+  "completed_files": [
+    "asv_bench/benchmarks/tslibs/offsets.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/pandas-dev/pandas/lsp/2cc37625532045f4ac55b27176454bbbc9baf213",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/2cc37625532045f4ac55b27176454bbbc9baf213.nq.gz",
+    "call_sites": 220978,
+    "import_statements": 1916,
+    "call_targets_resolved": 97,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 165,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 4129,
+    "import_symbols_denormalized": 15869,
+    "extends_class_denormalized": 161,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1821
+}
