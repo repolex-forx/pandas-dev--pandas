@@ -1,0 +1,18 @@
+[2026-11-25T23:24:16Z] === ENRICH ITERATION 7 START | repo=pandas-dev/pandas sha=49ca01ba ===
+[2026-11-25T23:24:16Z] [iter=7] PHASE START: enrich repo=pandas-dev/pandas sha=49ca01ba runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/49ca01ba-enrich-iter-007.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz
+[2026-11-25T23:24:49Z] [iter=7] Step 1: Loading AST into disk-backed store mem_mb=74 MB
+[2026-11-25T23:31:00Z] [iter=7] AST store loaded triples=26067504 load_secs=361 mem_mb=1113 MB
+[2026-11-25T23:31:00Z] [iter=7] Step 2: Finding LSP targets mem_mb=1113 MB
+[2026-11-25T23:32:47Z] [iter=7] LSP targets found call_sites=211326 imports=7075 extends=839 implements=0 secs=107
+[2026-11-25T23:32:49Z] [iter=7] Loaded checkpoint partial graph triples=45785
+[2026-11-25T23:32:49Z] [iter=7] Primed enclosing-def cache from persisted triples entries=65
+[2026-11-25T23:34:11Z] [iter=7] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1113 MB
+[2026-11-25T23:37:44Z] [iter=7] Position index built positions=1729126 nodes_with_types=2272039 secs=213 mem_mb=3825 MB
+[2026-11-25T23:37:44Z] [iter=7] Step 3: Starting LSP resolution mem_mb=3825 MB already_completed_types=[] already_completed_files=2
+[2026-11-25T23:37:44Z] [iter=7] Resolving target type target_type=call_site count=211326
+[2026-11-25T23:37:46Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=0 resolved=0 errors=0 current=pandas/tests/frame/methods/test_fillna.py
+[2026-11-25T23:43:51Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=19.6 files_done=1 resolved=22 errors=0 current=pandas/tests/arrays/floating/test_function.py
+[2026-11-25T23:54:58Z] [iter=7] CHECKPOINT TRIGGERED elapsed_min=30.7 files_completed=3 new_files_this_iter=1 mem_mb=3826 MB
+[2026-11-25T23:54:58Z] [iter=7] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz triples=46574
+[2026-11-25T23:54:59Z] [iter=7] Checkpoint written, exiting with code 7
+[2026-11-25T23:54:59Z] [iter=7] PHASE END: enrich (checkpointed) elapsed_s=1842 elapsed_min=30.7 files_completed=3
