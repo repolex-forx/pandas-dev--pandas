@@ -25,7 +25,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/c888af6d0bb674932007623c0867e1fbd4bdc2c6.nq.gz",
     "call_sites": 221123,
     "import_statements": 1662,
-    "call_targets_resolved": 5663,
+    "call_targets_resolved": 5795,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -39,5 +39,5 @@
     "extends_class_denormalized": 108,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1812
+  "elapsed_seconds": 1898
 }
