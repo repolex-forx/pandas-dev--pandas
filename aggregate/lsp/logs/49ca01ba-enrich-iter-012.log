@@ -1,0 +1,17 @@
+[2026-11-26T02:18:26Z] === ENRICH ITERATION 12 START | repo=pandas-dev/pandas sha=49ca01ba ===
+[2026-11-26T02:18:26Z] [iter=12] PHASE START: enrich repo=pandas-dev/pandas sha=49ca01ba runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/49ca01ba-enrich-iter-012.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz
+[2026-11-26T02:19:05Z] [iter=12] Step 1: Loading AST into disk-backed store mem_mb=74 MB
+[2026-11-26T02:26:29Z] [iter=12] AST store loaded triples=26067504 load_secs=437 mem_mb=1115 MB
+[2026-11-26T02:26:29Z] [iter=12] Step 2: Finding LSP targets mem_mb=1115 MB
+[2026-11-26T02:27:34Z] [iter=12] LSP targets found call_sites=211326 imports=7075 extends=839 implements=0 secs=66
+[2026-11-26T02:27:36Z] [iter=12] Loaded checkpoint partial graph triples=50744
+[2026-11-26T02:27:36Z] [iter=12] Primed enclosing-def cache from persisted triples entries=118
+[2026-11-26T02:28:32Z] [iter=12] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1115 MB
+[2026-11-26T02:30:41Z] [iter=12] Position index built positions=1729126 nodes_with_types=2272039 secs=129 mem_mb=3896 MB
+[2026-11-26T02:30:41Z] [iter=12] Step 3: Starting LSP resolution mem_mb=3896 MB already_completed_types=[] already_completed_files=5
+[2026-11-26T02:30:41Z] [iter=12] Resolving target type target_type=call_site count=211326
+[2026-11-26T02:30:43Z] [iter=12] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=0 resolved=0 errors=0 current=pandas/tests/frame/methods/test_replace.py
+[2026-11-26T02:50:12Z] [iter=12] CHECKPOINT TRIGGERED elapsed_min=31.8 files_completed=5 new_files_this_iter=0 mem_mb=3897 MB
+[2026-11-26T02:50:12Z] [iter=12] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz triples=51905
+[2026-11-26T02:50:13Z] [iter=12] Checkpoint written, exiting with code 7
+[2026-11-26T02:50:13Z] [iter=12] PHASE END: enrich (checkpointed) elapsed_s=1907 elapsed_min=31.8 files_completed=5
