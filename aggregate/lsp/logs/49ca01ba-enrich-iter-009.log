@@ -1,0 +1,17 @@
+[2026-11-26T00:34:39Z] === ENRICH ITERATION 9 START | repo=pandas-dev/pandas sha=49ca01ba ===
+[2026-11-26T00:34:39Z] [iter=9] PHASE START: enrich repo=pandas-dev/pandas sha=49ca01ba runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/49ca01ba-enrich-iter-009.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz
+[2026-11-26T00:35:21Z] [iter=9] Step 1: Loading AST into disk-backed store mem_mb=73 MB
+[2026-11-26T00:43:29Z] [iter=9] AST store loaded triples=26067504 load_secs=479 mem_mb=999 MB
+[2026-11-26T00:43:29Z] [iter=9] Step 2: Finding LSP targets mem_mb=999 MB
+[2026-11-26T00:44:55Z] [iter=9] LSP targets found call_sites=211326 imports=7075 extends=839 implements=0 secs=86
+[2026-11-26T00:44:57Z] [iter=9] Loaded checkpoint partial graph triples=47590
+[2026-11-26T00:44:57Z] [iter=9] Primed enclosing-def cache from persisted triples entries=94
+[2026-11-26T00:46:05Z] [iter=9] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=999 MB
+[2026-11-26T00:48:38Z] [iter=9] Position index built positions=1729126 nodes_with_types=2272039 secs=153 mem_mb=3720 MB
+[2026-11-26T00:48:38Z] [iter=9] Step 3: Starting LSP resolution mem_mb=3720 MB already_completed_types=[] already_completed_files=4
+[2026-11-26T00:48:38Z] [iter=9] Resolving target type target_type=call_site count=211326
+[2026-11-26T00:48:40Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=14.0 files_done=0 resolved=0 errors=0 current=pandas/tests/io/pytables/test_select.py
+[2026-11-26T01:05:07Z] [iter=9] CHECKPOINT TRIGGERED elapsed_min=30.5 files_completed=4 new_files_this_iter=0 mem_mb=3721 MB
+[2026-11-26T01:05:07Z] [iter=9] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz triples=48678
+[2026-11-26T01:05:07Z] [iter=9] Checkpoint written, exiting with code 7
+[2026-11-26T01:05:07Z] [iter=9] PHASE END: enrich (checkpointed) elapsed_s=1828 elapsed_min=30.5 files_completed=4
