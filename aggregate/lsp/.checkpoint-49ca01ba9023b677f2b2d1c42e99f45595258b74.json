@@ -3,6 +3,7 @@
   "completed_files": [
     "pandas/tests/arrays/floating/test_function.py",
     "pandas/tests/frame/methods/test_fillna.py",
+    "pandas/tests/frame/methods/test_replace.py",
     "pandas/tests/generic/test_generic.py",
     "pandas/tests/io/pytables/test_select.py",
     "pandas/tests/tseries/offsets/test_month.py"
@@ -13,7 +14,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz",
     "call_sites": 211326,
     "import_statements": 7075,
-    "call_targets_resolved": 1463,
+    "call_targets_resolved": 1632,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -27,5 +28,5 @@
     "extends_class_denormalized": 837,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1803
+  "elapsed_seconds": 1819
 }
