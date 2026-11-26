@@ -1,0 +1,17 @@
+[2026-11-26T06:36:47Z] === ENRICH ITERATION 19 START | repo=pandas-dev/pandas sha=49ca01ba ===
+[2026-11-26T06:36:47Z] [iter=19] PHASE START: enrich repo=pandas-dev/pandas sha=49ca01ba runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/49ca01ba-enrich-iter-019.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz
+[2026-11-26T06:37:21Z] [iter=19] Step 1: Loading AST into disk-backed store mem_mb=73 MB
+[2026-11-26T06:43:17Z] [iter=19] AST store loaded triples=26067504 load_secs=347 mem_mb=1094 MB
+[2026-11-26T06:43:17Z] [iter=19] Step 2: Finding LSP targets mem_mb=1094 MB
+[2026-11-26T06:44:56Z] [iter=19] LSP targets found call_sites=211326 imports=7075 extends=839 implements=0 secs=99
+[2026-11-26T06:44:59Z] [iter=19] Loaded checkpoint partial graph triples=58951
+[2026-11-26T06:44:59Z] [iter=19] Primed enclosing-def cache from persisted triples entries=155
+[2026-11-26T06:46:18Z] [iter=19] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1094 MB
+[2026-11-26T06:49:43Z] [iter=19] Position index built positions=1729126 nodes_with_types=2272039 secs=205 mem_mb=3849 MB
+[2026-11-26T06:49:43Z] [iter=19] Step 3: Starting LSP resolution mem_mb=3849 MB already_completed_types=[] already_completed_files=6
+[2026-11-26T06:49:43Z] [iter=19] Resolving target type target_type=call_site count=211326
+[2026-11-26T06:49:45Z] [iter=19] HEARTBEAT target_type=call_site elapsed_min=13.0 files_done=0 resolved=0 errors=0 current=pandas/tests/indexing/test_loc.py
+[2026-11-26T07:07:21Z] [iter=19] CHECKPOINT TRIGGERED elapsed_min=30.6 files_completed=6 new_files_this_iter=0 mem_mb=3851 MB
+[2026-11-26T07:07:21Z] [iter=19] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz triples=60065
+[2026-11-26T07:07:22Z] [iter=19] Checkpoint written, exiting with code 7
+[2026-11-26T07:07:22Z] [iter=19] PHASE END: enrich (checkpointed) elapsed_s=1834 elapsed_min=30.6 files_completed=6
