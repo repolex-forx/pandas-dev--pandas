@@ -1,6 +1,7 @@
 {
   "commit_sha": "49ca01ba9023b677f2b2d1c42e99f45595258b74",
   "completed_files": [
+    "pandas/io/formats/html.py",
     "pandas/tests/arrays/floating/test_function.py",
     "pandas/tests/frame/methods/test_fillna.py",
     "pandas/tests/frame/methods/test_replace.py",
@@ -8,7 +9,8 @@
     "pandas/tests/groupby/test_function.py",
     "pandas/tests/indexing/test_loc.py",
     "pandas/tests/io/pytables/test_select.py",
-    "pandas/tests/tseries/offsets/test_month.py"
+    "pandas/tests/tseries/offsets/test_month.py",
+    "pandas/tests/tseries/offsets/test_offsets.py"
   ],
   "completed_types": [],
   "stats": {
@@ -16,7 +18,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/49ca01ba9023b677f2b2d1c42e99f45595258b74.nq.gz",
     "call_sites": 211326,
     "import_statements": 7075,
-    "call_targets_resolved": 3690,
+    "call_targets_resolved": 3893,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -30,5 +32,5 @@
     "extends_class_denormalized": 837,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1801
+  "elapsed_seconds": 1822
 }
